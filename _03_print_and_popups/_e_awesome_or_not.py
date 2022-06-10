@@ -23,8 +23,11 @@ if __name__ == '__main__':
         messagebox.showinfo(message="ok answer")
     # 6. If your variable is  2
         # -- tell the user whatever they entered is boring.
-    
+    if x=="2":
+        messagebox.showinfo(message="boring answer just like you")
     # 7. If your variable is  3
         # -- invent your own message to give to the user (be nice).
-        
+    if x=="3":
+        messagebox.showinfo(message="good job you choose my soccer number")
     # Run the window's .mainloop() method
+window.mainloop()

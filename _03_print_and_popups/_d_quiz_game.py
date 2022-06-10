@@ -13,7 +13,7 @@ if __name__ == '__main__':
     #      // 2.  Ask the user a question 
 
     #      // 3.  Use an if statement to check if their answer is correct
-    if y=="5x^3":
+    if y=="5/x":
         messagebox.showinfo(message='you were correct congratulations')
         score=score+1
     else:
